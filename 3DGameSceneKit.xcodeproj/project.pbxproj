@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D2DB444247BC3FC00072B21 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2DB443247BC3FC00072B21 /* GameViewController.swift */; };
+		7D2DB446247BC61F00072B21 /* Level1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2DB445247BC61F00072B21 /* Level1Scene.swift */; };
+		7D2DB448247BC6BD00072B21 /* RBTerrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2DB447247BC6BD00072B21 /* RBTerrain.swift */; };
+		7D2DB44A247BC85D00072B21 /* RBPerlinNoiseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2DB449247BC85D00072B21 /* RBPerlinNoiseGenerator.swift */; };
+		7D2DB45C247BFED700072B21 /* ScnAsset.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2DB45B247BFED700072B21 /* ScnAsset.scnassets */; };
+		7D2DB46A247C1F7200072B21 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2DB469247C1F7200072B21 /* Player.swift */; };
+		7D875F3E247E9846000D0A88 /* Wolf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D875F3D247E9846000D0A88 /* Wolf.swift */; };
+		7D875F40247E9D5F000D0A88 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D875F3F247E9D5F000D0A88 /* Ring.swift */; };
+		7D875F42247E9F69000D0A88 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D875F41247E9F69000D0A88 /* Game.swift */; };
+		7D875F44247E9F99000D0A88 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D875F43247E9F99000D0A88 /* HUD.swift */; };
+		7D875F46247EA507000D0A88 /* RBRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D875F45247EA507000D0A88 /* RBRandom.swift */; };
+		7D875F4A247EACFA000D0A88 /* JoyStickController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D875F49247EACF9000D0A88 /* JoyStickController.swift */; };
 		7DEE25DE24793A3700DE5859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE25DD24793A3700DE5859 /* AppDelegate.swift */; };
 		7DEE25E024793A3700DE5859 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE25DF24793A3700DE5859 /* SceneDelegate.swift */; };
-		7DEE25E224793A3700DE5859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE25E124793A3700DE5859 /* ViewController.swift */; };
-		7DEE25E524793A3700DE5859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE25E324793A3700DE5859 /* Main.storyboard */; };
 		7DEE25E724793A3A00DE5859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE25E624793A3A00DE5859 /* Assets.xcassets */; };
 		7DEE25EA24793A3A00DE5859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE25E824793A3A00DE5859 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D2DB443247BC3FC00072B21 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7D2DB445247BC61F00072B21 /* Level1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1Scene.swift; sourceTree = "<group>"; };
+		7D2DB447247BC6BD00072B21 /* RBTerrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBTerrain.swift; sourceTree = "<group>"; };
+		7D2DB449247BC85D00072B21 /* RBPerlinNoiseGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBPerlinNoiseGenerator.swift; sourceTree = "<group>"; };
+		7D2DB45B247BFED700072B21 /* ScnAsset.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ScnAsset.scnassets; sourceTree = "<group>"; };
+		7D2DB469247C1F7200072B21 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		7D875F3D247E9846000D0A88 /* Wolf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wolf.swift; sourceTree = "<group>"; };
+		7D875F3F247E9D5F000D0A88 /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		7D875F41247E9F69000D0A88 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		7D875F43247E9F99000D0A88 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		7D875F45247EA507000D0A88 /* RBRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBRandom.swift; sourceTree = "<group>"; };
+		7D875F49247EACF9000D0A88 /* JoyStickController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyStickController.swift; sourceTree = "<group>"; };
 		7DEE25DA24793A3700DE5859 /* 3DGameSceneKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DGameSceneKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEE25DD24793A3700DE5859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DEE25DF24793A3700DE5859 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7DEE25E124793A3700DE5859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7DEE25E424793A3700DE5859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DEE25E624793A3A00DE5859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DEE25E924793A3A00DE5859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DEE25EB24793A3A00DE5859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +57,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D2DB466247C1AA300072B21 /* 3D Wolf */ = {
+			isa = PBXGroup;
+			children = (
+				7DD2111A247EC0C5004A5FA1 /* Scene */,
+				7DD21119247EC0B7004A5FA1 /* Helper */,
+				7D2DB468247C1F6A00072B21 /* Node */,
+				7D2DB443247BC3FC00072B21 /* GameViewController.swift */,
+				7D875F41247E9F69000D0A88 /* Game.swift */,
+			);
+			path = "3D Wolf";
+			sourceTree = "<group>";
+		};
+		7D2DB467247C1F2400072B21 /* Terrain */ = {
+			isa = PBXGroup;
+			children = (
+				7D2DB447247BC6BD00072B21 /* RBTerrain.swift */,
+				7D2DB449247BC85D00072B21 /* RBPerlinNoiseGenerator.swift */,
+			);
+			path = Terrain;
+			sourceTree = "<group>";
+		};
+		7D2DB468247C1F6A00072B21 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				7D2DB467247C1F2400072B21 /* Terrain */,
+				7D2DB469247C1F7200072B21 /* Player.swift */,
+				7D875F3D247E9846000D0A88 /* Wolf.swift */,
+				7D875F3F247E9D5F000D0A88 /* Ring.swift */,
+				7D875F49247EACF9000D0A88 /* JoyStickController.swift */,
+				7D875F43247E9F99000D0A88 /* HUD.swift */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		7DD21119247EC0B7004A5FA1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7D875F45247EA507000D0A88 /* RBRandom.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7DD2111A247EC0C5004A5FA1 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				7D2DB445247BC61F00072B21 /* Level1Scene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		7DEE25D124793A3700DE5859 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +128,11 @@
 			children = (
 				7DEE25DD24793A3700DE5859 /* AppDelegate.swift */,
 				7DEE25DF24793A3700DE5859 /* SceneDelegate.swift */,
-				7DEE25E124793A3700DE5859 /* ViewController.swift */,
-				7DEE25E324793A3700DE5859 /* Main.storyboard */,
+				7D2DB466247C1AA300072B21 /* 3D Wolf */,
 				7DEE25E624793A3A00DE5859 /* Assets.xcassets */,
 				7DEE25E824793A3A00DE5859 /* LaunchScreen.storyboard */,
 				7DEE25EB24793A3A00DE5859 /* Info.plist */,
+				7D2DB45B247BFED700072B21 /* ScnAsset.scnassets */,
 			);
 			path = 3DGameSceneKit;
 			sourceTree = "<group>";
@@ -126,8 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DEE25EA24793A3A00DE5859 /* LaunchScreen.storyboard in Resources */,
+				7D2DB45C247BFED700072B21 /* ScnAsset.scnassets in Resources */,
 				7DEE25E724793A3A00DE5859 /* Assets.xcassets in Resources */,
-				7DEE25E524793A3700DE5859 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +208,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DEE25E224793A3700DE5859 /* ViewController.swift in Sources */,
+				7D2DB44A247BC85D00072B21 /* RBPerlinNoiseGenerator.swift in Sources */,
+				7D2DB448247BC6BD00072B21 /* RBTerrain.swift in Sources */,
+				7D875F3E247E9846000D0A88 /* Wolf.swift in Sources */,
 				7DEE25DE24793A3700DE5859 /* AppDelegate.swift in Sources */,
+				7D2DB46A247C1F7200072B21 /* Player.swift in Sources */,
+				7D875F42247E9F69000D0A88 /* Game.swift in Sources */,
+				7D2DB444247BC3FC00072B21 /* GameViewController.swift in Sources */,
+				7D875F40247E9D5F000D0A88 /* Ring.swift in Sources */,
+				7D875F4A247EACFA000D0A88 /* JoyStickController.swift in Sources */,
+				7D875F44247E9F99000D0A88 /* HUD.swift in Sources */,
 				7DEE25E024793A3700DE5859 /* SceneDelegate.swift in Sources */,
+				7D2DB446247BC61F00072B21 /* Level1Scene.swift in Sources */,
+				7D875F46247EA507000D0A88 /* RBRandom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7DEE25E324793A3700DE5859 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DEE25E424793A3700DE5859 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DEE25E824793A3A00DE5859 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
