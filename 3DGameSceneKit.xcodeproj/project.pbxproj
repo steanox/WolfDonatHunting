@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46F348C6248A431F00FC47E9 /* SimdExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F348C5248A431F00FC47E9 /* SimdExtensions.swift */; };
 		7D2DB444247BC3FC00072B21 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2DB443247BC3FC00072B21 /* GameViewController.swift */; };
 		7D2DB446247BC61F00072B21 /* Level1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2DB445247BC61F00072B21 /* Level1Scene.swift */; };
 		7D2DB448247BC6BD00072B21 /* RBTerrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2DB447247BC6BD00072B21 /* RBTerrain.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46F348C5248A431F00FC47E9 /* SimdExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimdExtensions.swift; sourceTree = "<group>"; };
 		7D2DB443247BC3FC00072B21 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		7D2DB445247BC61F00072B21 /* Level1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1Scene.swift; sourceTree = "<group>"; };
 		7D2DB447247BC6BD00072B21 /* RBTerrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBTerrain.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46F348C4248A42F400FC47E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46F348C5248A431F00FC47E9 /* SimdExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		7D2DB466247C1AA300072B21 /* 3D Wolf */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +136,7 @@
 		7DEE25DC24793A3700DE5859 /* 3DGameSceneKit */ = {
 			isa = PBXGroup;
 			children = (
+				46F348C4248A42F400FC47E9 /* Extensions */,
 				7DEE25DD24793A3700DE5859 /* AppDelegate.swift */,
 				7DEE25DF24793A3700DE5859 /* SceneDelegate.swift */,
 				7D2DB466247C1AA300072B21 /* 3D Wolf */,
@@ -212,6 +223,7 @@
 				7D2DB448247BC6BD00072B21 /* RBTerrain.swift in Sources */,
 				7D875F3E247E9846000D0A88 /* Wolf.swift in Sources */,
 				7DEE25DE24793A3700DE5859 /* AppDelegate.swift in Sources */,
+				46F348C6248A431F00FC47E9 /* SimdExtensions.swift in Sources */,
 				7D2DB46A247C1F7200072B21 /* Player.swift in Sources */,
 				7D875F42247E9F69000D0A88 /* Game.swift in Sources */,
 				7D2DB444247BC3FC00072B21 /* GameViewController.swift in Sources */,

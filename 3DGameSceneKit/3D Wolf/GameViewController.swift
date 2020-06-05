@@ -9,7 +9,7 @@
 import SceneKit
 import UIKit
 
-class GameViewController: UIViewController{
+class GameViewController: UIViewController {
     var sceneView: SCNView?
     var level1Scene = Level1Scene()
     

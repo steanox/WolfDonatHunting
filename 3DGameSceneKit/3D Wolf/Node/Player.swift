@@ -13,6 +13,7 @@ class Player : SCNNode {
     
     private let lookAtForwardPosition = SCNVector3Make(0.0, 0.0, 1.0)
     private let cameraFowardPosition = SCNVector3(x: 0, y: 1, z: -2)
+    var baseAltitude: Float = 0
 
     private var _lookAtNode: SCNNode?
     private var _cameraNode: SCNNode?
@@ -27,7 +28,7 @@ class Player : SCNNode {
         loadLight()
     }
     
-    func loadWolf(){
+    func loadWolf() {
         _wolf = Wolf()
         _wolf?.physicsBody = SCNPhysicsBody(type: .kinematic, shape: nil)
         _wolf?.physicsBody?.categoryBitMask = Game.Physics.Categories.player
