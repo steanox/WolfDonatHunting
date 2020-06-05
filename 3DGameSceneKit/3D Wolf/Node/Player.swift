@@ -52,11 +52,11 @@ class Player : SCNNode {
         _cameraNode!.camera!.zNear = 0.1
         _cameraNode!.camera!.zFar = 200
         self.addChildNode(_cameraNode!)
-
-        // Link them
-        let constraint1 = SCNLookAtConstraint(target: _lookAtNode)
-        constraint1.isGimbalLockEnabled = true
-        _cameraNode!.constraints = [constraint1]
+//
+//        // Link them
+//        let constraint1 = SCNLookAtConstraint(target: _lookAtNode)
+//        constraint1.isGimbalLockEnabled = true
+//        _cameraNode!.constraints = [constraint1]
     }
     
     func loadLight(){
