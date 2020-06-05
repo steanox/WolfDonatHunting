@@ -147,6 +147,7 @@ class Level1Scene: SCNScene {
         self.cameraNode.camera = SCNCamera()
         self.cameraNode.name = "mainCamera"
         self.cameraNode.camera!.zNear = 0.1
+        self.cameraNode.camera!.zFar = 200
         self.rootNode.addChildNode(cameraNode)
 
         setActiveCamera("camLookAt_cameraGame", animationDuration: 0.0)
